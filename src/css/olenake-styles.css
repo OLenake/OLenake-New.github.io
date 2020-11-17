@@ -1,10 +1,11 @@
+@charset "UTF-8";
 /*!
  * Onkgopotse Lenake - Portfolio Website v1.0.0 (https://onkgopotselenake.me/)
- * Copyright 2020 Onkgopotse Lenake
+ * Copyright © 2020 Onkgopotse Lenake
  * Licensed under MIT (https://github.com/OLenake/OLenake.github.io/blob/master/LICENSE)
  */
 
- :root {
+:root {
      /* OLenake Color Palette - Primary Blue */
     --clr-primary-900: #007BC9;
     --clr-primary-800: #0386FC;
@@ -40,35 +41,60 @@
      --primaryButtonColor: black;
 }
 
- html,
- body {
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+/* html,
+body {
      margin: 0;
      padding: 0;
      scroll-behavior: smooth;
- }
+} */
 
- body * {
-     transition: 0.3s;
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #FFF;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-strong {
+body * {
+    transition: 0.3s;
+}
+
+[tabindex="-1"]:focus:not(:focus-visible) {
+    outline: 0 !important;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
 	color: var(--primaryTextColor);
 	font-family: 'Nunito', sans-serif;
 	font-weight: 800;
 }
 
-p,
-li,
-span,
-label,
-input,
-textarea {
+p, li, span, label, input, textarea {
 	color: var(--secondaryTextColor);
     font-family: 'Roboto Mono', monospace;
 }
@@ -228,8 +254,8 @@ h6 { font-size: 16px; }
     display: block;
     margin: 0 auto;
 
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     object-fit: cover;
     border: 2px solid var(--borderColor);
 }
@@ -436,6 +462,40 @@ h6 { font-size: 16px; }
 	color: #FFF;
 	background-color: var(--primaryButtonColor);
 	border: none;
+}
+
+footer.footer {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    background-color: var(--primaryColor);
+	border-bottom: 1px solid var(--borderColor);
+	overflow: auto;
+}
+
+/* footer.footer .social-link {
+    display: block;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4.3rem;
+    font-size: 1.5rem;
+    background-color: #1D809F;
+    transition: background-color 0.15s ease-in-out;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+} 
+
+footer.footer .social-link:hover {
+    background-color: #155d74;
+    text-decoration: none;
+} */
+
+.footer-content {
+    font-size: 14px;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 14px;
+    text-align: center;
 }
 
 @media screen and (max-width: 1200px) {

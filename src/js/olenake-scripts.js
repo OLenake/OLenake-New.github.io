@@ -1,3 +1,8 @@
+/*!
+ * Onkgopotse Lenake - Portfolio Website v1.0.0 (https://onkgopotselenake.me/)
+ * Copyright © 2020 Onkgopotse Lenake
+ * Licensed under MIT (https://github.com/OLenake/OLenake.github.io/blob/master/LICENSE)
+ */
 console.log('Its working')
 
 let theme = localStorage.getItem('theme')
@@ -25,15 +30,15 @@ function setTheme(mode){
 	}
 
 	if(mode == 'blue'){
-		document.getElementById('theme-style').href = 'css/blue.css'
+		document.getElementById('theme-style').href = 'css/olenake-theme-blue.css'
 	}
 
 	if(mode == 'green'){
-		document.getElementById('theme-style').href = 'css/green.css'
+		document.getElementById('theme-style').href = 'css/olenake-theme-green.css'
 	}
 
 	if(mode == 'purple'){
-		document.getElementById('theme-style').href = 'css/purple.css'
+		document.getElementById('theme-style').href = 'css/olenake-theme-purple.css'
 	}
 
 	localStorage.setItem('theme', mode)
