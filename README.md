@@ -1,5 +1,5 @@
-# [Onkgopotse Lenake - OLenake GitHub Portfolio](https://olenake.github.io/)
+# [Onkgopotse (OLenake) Portfolio](https://olenake.github.io/)
 
-[OLenake GitHub Portfolio](https://olenake.github.io/) is my personal website portfolio [Onkgopotse Lenake](https://onkgopotselenake.me/), hosted on [GitHub Pages](https://pages.github.com/) created by [Onkgopotse Lenake - aka OLenake](https://github.com/OLenake). The website showcases my work as a visionary software engineer and features multiple content sections with an off canvas navigation menu.
+This repository contains my portfolio website [Onkgopotse Lenake - Portfolio](https://onkgopotselenake.me/) source code, hosted on [GitHub Pages](https://pages.github.com/) and created by [Onkgopotse Lenake (OLenake)](https://github.com/OLenake). The website showcases my work as a professional and features some of the things that I have accomplished.
 
 ## Preview
